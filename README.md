@@ -24,8 +24,8 @@ This is a Next.js app that allows users to store their data as a JSON object on 
 	ipfs daemon
 	```
 4. Make sure that your IPFS daemon's configuration file ( that you can find at "~/.ipfs/config" on your machine allows CORS requests from the NextJS app's domain.
-
 You can do this by adding the following lines to the "API" section of the config file:
+
 	```json
 	"API": {
   	"HTTPHeaders": {
@@ -37,3 +37,6 @@ You can do this by adding the following lines to the "API" section of the config
 	```bash
 	npm run dev
 	```
+
+
+
